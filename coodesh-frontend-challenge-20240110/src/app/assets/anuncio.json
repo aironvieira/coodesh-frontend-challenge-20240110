@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "tipo": "Casa à Venda",
+    "area": "113m²",
+    "endereco": "Cristiano Moreira Sales, Buritis",
+    "quartos": 3,
+    "banheiros": 2,
+    "vagas": 4,
+    "comodidades": ["Armário Embutido", "Elevador"],
+    "preco": "R$ 268.000",
+    "imagem": "/casas/casa1.png"
+  },
+  {
+    "id": 2,
+    "tipo": "Casa à Venda",
+    "area": "156m²",
+    "endereco": "Cristiano Moreira Sales, Buritis",
+    "quartos": 3,
+    "banheiros": 2,
+    "vagas": 4,
+    "comodidades": ["Armário Embutido", "Elevador"],
+    "preco": "R$ 395.000",
+    "imagem": "/casas/casa2.png"
+  },
+  {
+    "id":3,
+    "tipo": "Casa à Venda",
+    "area": "156m²",
+    "endereco": "Cristiano Moreira Sales, Buritis",
+    "quartos": 3,
+    "banheiros": 2,
+    "vagas": 4,
+    "comodidades": ["Armário Embutido", "Elevador"],
+    "preco": "R$ 395.000",
+    "imagem": "/casas/casa3.png"
+  },
+  {
+    "id": 4,
+    "tipo": "Casa à Venda",
+    "area": "156m²",
+    "endereco": "Cristiano Moreira Sales, Buritis",
+    "quartos": 3,
+    "banheiros": 2,
+    "vagas": 4,
+    "comodidades": ["Armário Embutido", "Elevador"],
+    "preco": "R$ 395.000",
+    "imagem": "/casas/casa4.png"
+  },
+  {
+    "id": 5,
+    "tipo": "Casa à Venda",
+    "area": "156m²",
+    "endereco": "Cristiano Moreira Sales, Buritis",
+    "quartos": 3,
+    "banheiros": 2,
+    "vagas": 4,
+    "comodidades": ["Armário Embutido", "Elevador"],
+    "preco": "R$ 395.000",
+    "imagem": "/casas/casa3.png"
+  },
+  {
+    "id": 6,
+    "tipo": "Casa à Venda",
+    "area": "156m²",
+    "endereco": "Cristiano Moreira Sales, Buritis",
+    "quartos": 3,
+    "banheiros": 2,
+    "vagas": 4,
+    "comodidades": ["Armário Embutido", "Elevador"],
+    "preco": "R$ 395.000",
+    "imagem": "/casas/casa1.png"
+  },
+  {
+    "id": 7,
+    "tipo": "Casa à Venda",
+    "area": "156m²",
+    "endereco": "Cristiano Moreira Sales, Buritis",
+    "quartos": 3,
+    "banheiros": 2,
+    "vagas": 4,
+    "comodidades": ["Armário Embutido", "Elevador"],
+    "preco": "R$ 395.000",
+    "imagem": "/casas/casa4.png"
+  },
+  {
+    "id": 8,
+    "tipo": "Casa à Venda",
+    "area": "156m²",
+    "endereco": "Cristiano Moreira Sales, Buritis",
+    "quartos": 3,
+    "banheiros": 2,
+    "vagas": 4,
+    "comodidades": ["Armário Embutido", "Elevador"],
+    "preco": "R$ 395.000",
+    "imagem": "/casas/casa3.png"
+  }
+]
