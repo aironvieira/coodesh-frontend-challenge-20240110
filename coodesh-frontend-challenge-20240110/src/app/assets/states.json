@@ -1,0 +1,40 @@
+[
+    {
+      "name": "Belo Horizonte",
+      "state": {
+        "name": "Minas Gerais",
+        "shortname": "MG"
+      },
+      "imagem": "/estados/MG.jpeg",
+
+      "placeId": 1
+    },
+    {
+      "name": "São Paulo",
+      "state": {
+        "name": "São Paulo",
+        "shortname": "SP"
+      },
+      "imagem": "/estados/SP.jpeg",
+      "placeId": 2
+    },
+    {
+      "name": "Rio Grande do Sul",
+      "state": {
+        "name": "Rio Grande do Sul",
+        "shortname": "RS"
+      },
+      "imagem": "/estados/RS.jpeg",
+      "placeId": 3
+    },
+    {
+      "name": "Rio de Janeiro",
+      "state": {
+        "name": "Rio de Janeiro",
+        "shortname": "RJ"
+      },
+      "imagem": "/estados/RJ.jpeg",
+      "placeId": 4
+    }
+  ]
+  

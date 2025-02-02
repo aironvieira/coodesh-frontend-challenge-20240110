@@ -23,3 +23,36 @@ body {
 .hero-background {
   background-image: url('./assets/images/hero.png');
 }
+
+.pegaSol {
+  background-image: url('./assets/images/PegaSol.jpeg');
+}
+
+.aceitamPet {
+  background-image: url('./assets/images/AceitamPet.jpeg');
+}
+
+.onibusPerto {
+  background-image: url('./assets/images/OnibusPerto.jpeg');
+}
+
+.temQuintal {
+  background-image: url('./assets/images/TemQuintal.jpeg');
+}
+
+.boaInternet {
+  background-image: url('./assets/images/BoaInternet.jpeg');
+}
+
+.temVaranda {
+  background-image: url('./assets/images/TemVaranda.jpeg');
+}
+
+.oportunidadeBg {
+  background-image: url('./assets/images/OportunidadeImage.png');
+}
+
+
+.motivacionalBg {
+  background-image: url('./assets/images/Motivacional.jpeg');
+}
