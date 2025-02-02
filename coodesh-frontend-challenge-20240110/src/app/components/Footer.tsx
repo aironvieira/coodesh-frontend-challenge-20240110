@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react"
 import Image from 'next/image';
 import AppleStore from '../assets/images/appleStore.png'
 import PlayStore from '../assets/images/playStore.png'
@@ -8,7 +9,6 @@ import Facebook from '../assets/images/Facebook.svg'
 import Linkedin from '../assets/images/Linkedin.svg'
 import Youtube from '../assets/images/Youtube.svg'
 import LogoBranco from '../assets/images/LogoBranco.png'
-import { useState } from "react"
 
 const Footer: React.FC = () => {
 
@@ -127,7 +127,7 @@ const Footer: React.FC = () => {
                         src={LogoBranco}
                         alt="Logo Branco"
                         className="object-cover w-[153px] h-[38px] m-auto mb-4 lg:m-0"
-                        />
+                    />
                     
                     <div className='mb-4 lg:m-0'>
                         <p className='font-light text-[12px] text-white text-center whitespace-nowrap'>© Copyright 2021 Netimóveis Brasil SA. Todos os direitos reservados.</p>

@@ -22,9 +22,7 @@ const Home: React.FC = () => {
         <EncontreImovel />
       </div>
       <Diferenciais />
-      <div className="container mt-20">
-        <Banner />
-      </div>
+      <Banner />
       <PorEstado />
       <Oportunidade />
       <Motivacional />
@@ -32,7 +30,7 @@ const Home: React.FC = () => {
       <div className="container">
         <Associar />
       </div>
-      <Footer />
+      <Footer /> 
     </div>
   );
 }

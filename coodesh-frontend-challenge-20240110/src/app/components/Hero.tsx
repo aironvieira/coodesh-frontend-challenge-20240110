@@ -28,7 +28,7 @@ function PesquisaLocal({ filtro, setFiltro, setJanela }: { filtro: string, setFi
   });
 
   return (
-    <div className='rounded-md bg-white pt-4 overflow-hidden' ref={janelaLocalRef}>
+    <div className='absolute top-20 w-[80%] left-0 z-[1] rounded-md bg-white pt-4 overflow-hidden' ref={janelaLocalRef}>
       <h4 className='text-[#A1A7AA] text-[14px] text-center'>Busque por cidade, região, bairro ou código</h4>
       <ul>
         {
@@ -69,7 +69,7 @@ function PesquisaRequisitos(
   });
 
   return (
-    <section className='absolute top-20 w-[80%] left-0 rounded-md bg-white p-4 overflow-hidden' ref={janelaRef}>
+    <section className='absolute top-20 w-[80%] z-[1] left-0 rounded-md bg-white p-4 overflow-hidden' ref={janelaRef}>
       <h4 className='text-[14px] text-custom-dark-grey mb-2'>Número de Quartos</h4>
       <div className='flex justify-around'>
         <option className={`w-[70px] h-[42px] cursor-pointer border rounded-full flex items-center justify-center font-bold ${ nroQuartos === "Todos" ? 'border-custom-purple text-custom-purple' : 'border-custom-grey text-custom-grey' }`} onClick={() => setNroQuartos("Todos")}>Todos</option>
@@ -110,8 +110,8 @@ const Hero: React.FC = () => {
   return (
     <section className="hero-background bg-heroImage h-[40rem] bg-right bg-no-repeat bg-cover">
       <h2 className='text-center text-[34px] text-white font-bold pt-[7rem]'>Vende. Aluga. Conecta.</h2>
-      <div className='w-[770px] h-[78px] bg-white rounded-full m-auto flex justify-between'>
-        <div className='relative bg-white rounded-full px-8 py-4 w-[49%] hover:bg-custom-light-grey transition duration-500 focus-within:shadow-[4px_0px_15px_rgba(0,0,0,0.2)]'>
+      <div className='md:w-[768px] md:h-[78px] bg-white md:rounded-full rounded-xl m-8 md:m-auto flex flex-col md:flex-row justify-between'>
+        <div className='relative bg-white md:rounded-full rounded-xl px-8 py-4 md:w-[49%] hover:bg-custom-light-grey transition duration-500 focus-within:shadow-[4px_0px_15px_rgba(0,0,0,0.2)]'>
           <div className='flex gap-2 '>
             <Image src={Pin} alt="Pin" width={16} height={20} />
             <span className='text-[14px] font-bold text-custom-dark-grey'>Localização</span>
@@ -120,17 +120,15 @@ const Hero: React.FC = () => {
 
           {
             filtro && janelaAberta && (
-              <div className='absolute top-20 w-[80%] left-0'>
                 <PesquisaLocal filtro={filtro} setFiltro={setFiltro} setJanela={setJanela} />
-              </div>
             )
           }
         </div>
 
-        <div className='relative bg-white rounded-full px-8 pr-4 py-4 w-[49%] flex justify-between hover:bg-custom-light-grey transition duration-500 focus-within:shadow-[-4px_0px_15px_rgba(0,0,0,0.2)]'>
+        <div className='relative bg-white md:rounded-full rounded-xl px-8 pr-4 py-4 md:w-[49%] flex justify-between hover:bg-custom-light-grey transition duration-500 focus-within:shadow-[-4px_0px_15px_rgba(0,0,0,0.2)]'>
           <div className='w-[100%]'>
             <div className='flex gap-2'>
-              <Image src={Bed} alt="Pin" width={24} height={24} />
+              <Image src={Bed} alt="Bed" width={24} height={24} />
               <span className='text-[14px] font-bold text-custom-dark-grey'>N° de Quartos?</span>
             </div>
             <input type="text" placeholder="N° de Quartos?" className='border-0 outline-none bg-transparent w-[95%]' onClick={() => setJanelaRequisitos(true)} value={valorInputRequisitos()} readOnly />
@@ -141,7 +139,7 @@ const Hero: React.FC = () => {
               )
             }
           </div>
-          <Image src={Search} alt="Pin" width={46} className='bg-custom-orange hover:bg-custom-dark-orange rounded-full p-2 transition duration-200 cursor-pointer' />
+          <Image src={Search} alt="Search" className='w-[52px] md:w-[46px] bg-custom-orange hover:bg-custom-dark-orange rounded-full p-2 transition duration-200 cursor-pointer' />
         </div>
       </div>
 

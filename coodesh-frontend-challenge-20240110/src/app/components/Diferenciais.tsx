@@ -73,8 +73,8 @@ const Diferenciais: React.FC = () => {
     return (
       <section className={`w-full bg-cover bg-center ${optionImoveis}`}>
         <div className='container pt-16 pb-16'>
-            <div className='w-[513px] h-[430px] bg-white rounded-md mr-auto'>
-                <div className='flex justify-center border-b border-solid border-[#E1E5E9] px-12 justify-between'>
+            <div className='md:w-[513px] md:h-[430px] bg-white rounded-md mr-auto'>
+                <div className='flex justify-center border-b border-solid border-[#E1E5E9] md:px-12 justify-between'>
 
                 <Swiper
 

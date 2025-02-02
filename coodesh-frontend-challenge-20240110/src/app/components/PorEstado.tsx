@@ -6,7 +6,7 @@ const CardEstado: React.FC<{estado:string, cidade:string, imagem:string}>  = ({e
 
     return(
 
-        <div className='w-[294px] m-auto  mt-20'>
+        <div className='w-[294px] m-auto'>
             <div className='relative h-[192px] bg-cover bg-no-repeat rounded-xl overflow-hidden ' style={{ backgroundImage: `url(${imagem})` }}>
                 <div className='absolute bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.8)] h-[100%] w-[100%] z-0'></div>
                 <p className='absolute text-white z-1 bottom-4 left-4 font-bold text-[24px]'>
@@ -31,15 +31,18 @@ const Estado: React.FC = () => {
 
 
     return (
-        <section className={`container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 `}>
-            
+        <section className={`container mt-20`}>
+            <h2 className="font-bold md:text-[34px] text-custom-dark-grey md:mb-8 mb-4 text-center md:text-left">Prontos para te Receber em mais de 10 estados</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {
+
                 estados.map((estado) => (
 
                     <CardEstado key={estado.placeId} estado={estado.state.name} cidade={estado.name} imagem={estado.imagem}/>
                     
                 ))
             }
+            </div>
 
         </section>
     );
