@@ -22,4 +22,4 @@ Como um diferencial, desenvolvi um header flutuante para desktop e um menu mobil
 npm run dev
 ```
 
-### Abra o [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+### Após rodar o server, abra o [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
