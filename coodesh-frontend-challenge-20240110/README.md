@@ -1,16 +1,22 @@
 # Front-end Challenge - Netimóveis 20240110
 ## This is a challenge by [Coodesh](https://coodesh.com/)
 
-Frameworks e Bibliotecas utilizadas: Next JS, Typescript, Tailwind CSS e Swiper.
+## Frameworks e Bibliotecas Utilizadas
+* Next.js
+* TypeScript
+* Tailwind CSS
+* Swiper
 
-Em virtude do prazo de 5 dias para entrega do projeto, elalaborei um planejamento de entregáveis diários, de modo a garantir o atendimento a entrega total do projeto.  Com isso, consegui finalizar a task com tempo suficiente para revisões. 
+## Planejamento e Entregáveis
+Devido ao prazo de 5 dias para a entrega do projeto, estabeleci um planejamento de entregáveis diários para garantir a entrega completa dentro do tempo estipulado. Isso me permitiu finalizar as tasks com margem para revisões e ajustes necessários.
 
-Sobre o processo, tomei algumas decisões para agilizar o desenvolvimento, como a utilização da biblioteca Swiper, onde os carrosséis ficaram mais fluídos e dinâmicos.
+## Decisões Técnicas e Otimizações
+Para otimizar o processo de desenvolvimento, tomei algumas decisões estratégicas, como a escolha da biblioteca Swiper. Com ela, os carrosséis ficaram mais fluidos e dinâmicos, proporcionando uma experiência de usuário mais agradável e eficiente.
 
-Como extra, construi o header desktop flutuante e o menu mobile que foi entregue junto ao mockup.
+## Funcionalidades Extras
+Como um diferencial, desenvolvi um header flutuante para desktop e um menu mobile que foi entregue juntamente com o mockup, elevando a usabilidade e a estética da aplicação.
 
-
-###  run the development server:
+###  Rodar o server:
 
 ```bash
 npm run dev
